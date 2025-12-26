@@ -1,5 +1,5 @@
 def part():
-    with open('/Users/a200315862/Downloads/aoc/data/day2.txt','r') as file:
+    with open('aoc/data/day2.txt','r') as file:
 
         ranges = [list(map(int, i.split("-"))) for i in file.readline().strip().split(",")]
         #print(ranges)
