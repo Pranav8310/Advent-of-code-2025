@@ -1,6 +1,6 @@
 def foo():
     count = 0
-    files = [list(line.strip()) for line in open('/Users/A200315862/Downloads/aoc/aoc2025/data/day4.txt', 'r')]
+    files = [list(line.strip()) for line in open('/aoc/aoc2025/data/day4.txt', 'r')]
     for c, col in enumerate(files):
         for r, row in enumerate(col):
             if row == '@':
