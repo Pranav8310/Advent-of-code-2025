@@ -1,6 +1,6 @@
 def part2():
     count = 0
-    matrix = [list(lines.strip()) for lines in open("/Users/A200315862/Downloads/aoc/aoc2025/data/day4.txt",'r')]
+    matrix = [list(lines.strip()) for lines in open("/aoc/aoc2025/data/day4.txt",'r')]
     while True:
         copy = [row[:] for row in matrix]
         iteration_count = 0
