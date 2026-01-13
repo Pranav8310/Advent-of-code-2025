@@ -1,6 +1,6 @@
 def part2():
     total=0
-    with open('/Users/A200315862/Downloads/aoc/data/day2.txt','r') as file:
+    with open('/aoc/data/day2.txt','r') as file:
         ranges = [list(map(int, i.split('-'))) for i in file.readline().strip().split(',')]
         for i in ranges:
             for j in range(i[0], i[1] + 1):
