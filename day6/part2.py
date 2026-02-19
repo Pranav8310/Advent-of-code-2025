@@ -1,5 +1,5 @@
 def foo():
-    a = [file.strip("\n") for file in open("/Users/A200315862/Downloads/aoc/aoc2025/data/day6.txt",'r')]
+    a = [file.strip("\n") for file in open("/aoc/aoc2025/data/day6.txt",'r')]
     cols = list(zip(*a))
     groups = []
     group = []
